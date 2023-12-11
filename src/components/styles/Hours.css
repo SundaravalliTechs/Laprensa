@@ -1,0 +1,186 @@
+.booth {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 400px;
+    
+  }
+  
+  .info {
+    display: flex;
+  }
+  
+  .location{
+    text-align: center;
+  }
+  .hours {
+    text-align: center;
+  }
+  
+  .location h1{
+    color: #28A428;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Oswald", Sans-serif;
+  }
+ 
+  .hours h1{
+    margin-left: 20px;
+    color: #28A428;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Oswald", Sans-serif;
+  }
+   
+  .location {
+    font-size: 24px;
+    margin-right: 150px;
+  }
+  .hours{
+    font-size: 24px;
+    margin-left: 150px;
+  }
+
+   .horloc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+  }
+ 
+  .hor-button {
+    background: none;
+    border: none;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #28A428;
+    border-radius: 50px;
+    color: white;
+    background-color: #28A428;
+    height: 40px;
+    margin-right: 100px;
+  }
+  
+  .hor-button p {
+    margin-left: 10px;
+    font-size: 18px; 
+    margin-bottom: 5px;
+  }
+  
+  .hor-button:hover {
+    background-color: #28A428;
+    color: white;
+  }
+  
+  .horloc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .hor-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #28A428;
+    border-radius: 50px;
+    color: white;
+    background-color: #28A428;
+    height: 40px;
+    margin-right: 0px;
+
+  }
+  
+  .hor-button p {
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 0; 
+  }
+
+
+/* 
+
+
+  @media (max-width: 768px) {
+    .booth {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 300px;
+    }
+  
+    .info {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .location,
+    .hours {
+      font-size: 20px;
+      margin: 0;
+    }
+  
+    .location h1,
+    .hours h1 {
+      font-size: 30px;
+      margin: 0;
+    }
+   
+  }
+  @media (max-width: 600px) {
+    .hor-button {
+      padding: 8px 16px;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .hor-button p {
+      margin: 0;
+      text-align: center; 
+     
+    }
+    .horloc{
+      margin-left: 30px;
+    }
+
+   }  */
+
+
+   @media (max-width: 768px) {
+    .booth {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      margin-top: 220px;
+    }
+    .info {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .location,
+    .hours {
+      margin: 0;
+      text-align: center;
+      font-size: 20px;
+    }
+    .location h1,
+    .hours h1 {
+      font-size: 30px;
+      margin: 0;
+    }
+    .hor-button {
+      margin-right: 0;
+      padding: 10px 10px;
+      margin-left: 82px;
+    }
+  
+    .hor-button p {
+      font-size: 14px;
+    }
+  }

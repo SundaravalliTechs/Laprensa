@@ -1,0 +1,371 @@
+
+  .ourt {
+    position: relative; 
+  }
+  .ourt img {
+    margin-top:300px;
+    width: 1570px; 
+    height: 400px; 
+  }
+  
+  .team-text {
+    position: absolute;
+    margin-top: 150px;
+    top: 50%;
+    left: 50%;
+    font-family: "Oswald", Sans-serif;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    font-size: 50px; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+  }
+
+  .team {
+    text-align: center; 
+  }
+  
+  .team h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: #28A428;
+    font-family: "Oswald", Sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  .team p {
+    margin-top: 50px;
+    color: gray; 
+    text-align: center;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  
+ 
+  
+  .santhocom {
+    display: flex; 
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .santhoim {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .santhoim img {
+    width: 350px;
+  }
+  
+  .tip {
+    flex: 1; 
+  }
+  
+  .tip h1 {
+    line-height: 1.5em;
+    color: #28A428;
+    font-family: "Oswald", Sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+   
+  }
+  
+  .tip h2 {
+    line-height: 2.5em;
+    font-size: 24px;
+    font-family: "Oswald", Sans-serif;
+    color: #28A428;
+  }
+
+   
+
+
+  .tomcom {
+    margin-top: 100px;
+    display: flex; 
+    align-items: center; 
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .loca {
+    flex: 1;
+  }
+  
+  .loca h1 {
+    line-height: 1.5em;
+    color: #28A428;
+    font-family: "Oswald", Sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .loca h2 {
+    line-height: 2.5em;
+    font-size: 24px;
+    font-family: "Oswald", Sans-serif;
+    color: #28A428;
+  }
+  
+  .loca p {
+   
+  }
+  
+  .tomimg {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    margin-left: 20px;
+    overflow: hidden;
+  }
+
+
+  .malecom {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .maleimg  img{
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 20px; 
+  }
+
+  .hanna {
+    flex: 1; 
+  }
+
+  .hanna h1 {
+    line-height: 1.5em;
+    color: #28A428;
+    font-family: "Oswald", Sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .hanna h2 {
+    line-height: 2.5em;
+    font-size: 24px;
+    font-family: "Oswald", Sans-serif;
+    color: #28A428;
+  }
+
+  .hanna p {
+    
+  }
+
+
+
+  .samcome {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .samaee {
+    flex: 1; 
+  }
+
+  .samaee h1 {
+    line-height: 1.5em;
+    color: #28A428;
+    font-family: "Oswald", Sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .samaee h2 {
+    line-height: 2.5em;
+    font-size: 24px;
+    font-family: "Oswald", Sans-serif;
+    color: #28A428;
+  }
+
+  .samaee p {
+ 
+  }
+
+  .sam img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 20px; 
+  }
+
+
+
+
+@media (max-width: 768px){
+.ourt {
+    position: relative;
+  }
+  
+  .ourt img {
+    width: 100%;
+    max-height: auto;
+  }
+  
+  .team-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: "Oswald", Sans-serif;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10%; 
+  }
+  
+  .team {
+    text-align: center;
+  }
+  
+  .team h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: #28A428;
+    font-family: "Oswald", Sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  
+  .team p {
+    margin-top: 30px;
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .santhocom,  
+  .tomcom,
+  .malecom,
+  .samcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+   .santhocom
+  {
+    flex-direction: column; 
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  } 
+
+  
+  .santhoim,  
+  .loca,
+  .hanna,
+  .samaee {
+    flex: 1; 
+  }
+
+
+  /* .santhoim{
+    flex: 1;
+  }
+
+
+
+
+.tip h1{
+    line-height: 1.5em;
+    color: #28A428;
+    font-family: "Oswald", Sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.tip h2{
+    line-height: 2.5em;
+    font-size: 24px;
+    font-family: "Oswald", Sans-serif;
+    color: #28A428;
+
+} */
+
+  
+/* .santhoim img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-left: 90px;
+    overflow: hidden; 
+  } */
+ 
+
+  .sam img,
+  .maleimg img {
+    max-width: 100%;
+    max-height: auto;
+  }
+
+
+  .tomimg img{
+    width: 350px;
+    height: 350px;
+    border-radius: 70%;
+    margin-left: 40px;
+    overflow: hidden;
+  }
+  .loca,
+  .tip,  
+  .hanna,
+  .samaee {
+    text-align: center;
+  }
+  
+  .tip h1,   
+  .hanna h1,
+  .samaee h1 {
+    line-height: 1.5em;
+    color: #28A428;
+    font-family: "Oswald", Sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  
+   .tip h2,  
+  .hanna h2,
+  .samaee h2 {
+    line-height: 1.5em;
+    font-size: 24px;
+    font-family: "Oswald", Sans-serif;
+    color: #28A428;
+  }
+  
+  .loca h1 {
+    font-size: 30px;
+  }
+  
+  .loca h2 {
+    font-size: 24px;
+  }
+  
+  .loca p,
+  .hanna p,
+  .samaee p {
+
+  }
+}  

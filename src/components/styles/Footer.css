@@ -1,0 +1,190 @@
+/*  
+.fo {
+
+    background-color:#28A428; 
+    color: white; 
+    padding: 20px; 
+    margin-top: 2%;   
+    height: 230px; 
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: "Oswald", Sans-serif;
+}
+
+.fo p{
+  display: flex; 
+  margin-left: 20%;
+ 
+}
+
+.socialMedia{
+  margin-left: 25%;
+  width: 100px; 
+
+}
+
+.fo1 {
+  display: flex; 
+  margin-left: 70%;  
+  
+}
+
+
+.fo1 p{
+  margin: 0%;
+}
+
+
+  .socialMedia {
+    display: flex;
+    align-items: center; 
+    
+  
+}
+  .socialMedia p {
+    margin-right: 10px;
+
+  }
+  
+
+  .socialMedia .MuiSvgIcon-root {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  
+   */
+
+   .hoo{
+    background-color:#28A428;
+    padding: 20px;
+    height: 240px;
+    margin-top: 2%;
+    color: white;
+    justify-content: space-between; /* Space evenly between items */
+    align-items: center; 
+    display: flex;
+    flex-direction:row;
+    margin-top: 2%;
+    
+  }
+   
+
+   .fo p{
+    display: flex; 
+    /* margin-left: 100%;  */
+    color: white; 
+    margin-right: 0%;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: "Oswald", Sans-serif;
+    padding-left: 300px;
+  }
+  
+  .socialMedia{
+    margin-left: 65%;
+    width: 100px; 
+  
+  }
+  .fo1 {
+    margin-bottom: 0%;
+    margin-top: 12px;
+  }
+
+ .fo1 p{
+  margin-right: 300px;
+  color: white; 
+  font-size: xx-large;
+  font-weight: 600;
+  font-family: "Oswald", Sans-serif;
+ }
+
+ 
+.locc{
+  margin-left: 2%;
+  display: flex; 
+  margin-bottom: 0%;
+  color: white;
+  width: 40%;
+  margin-top: 4%;
+
+}
+.locc p{
+  
+  max-height: 150px;
+  width: auto;
+  font-size: large;
+  margin-top: 0%;
+  white-space: nowrap;
+
+}  
+
+/* For screens smaller than 768px (e.g., tablets) */
+/* @media screen and (max-width: 768px) {
+  .hoo {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socialMedia {
+    margin-left: 0;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+
+@media screen and (max-width: 480px) {
+  .fo p {
+    padding-left: 0;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+
+  }
+
+  .fo1 p {
+    margin-right: 0;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .locc {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+ @media screen and (max-width: 768px) {
+  .hoo {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .socialMedia {
+    margin-left: 80px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+} 
+
+@media screen and (max-width: 480px) {
+  .fo p {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .fo1 p {
+    margin-right: 0;
+  }
+
+  .locc {
+    width: 100%;
+    margin-left: 0;
+  }
+}

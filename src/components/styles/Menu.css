@@ -1,0 +1,144 @@
+
+
+   @media (max-width: 768px) {
+    .search-container {
+     display:grid;
+      flex-direction: row;
+      align-items: center;
+      padding: 1px; 
+      max-width: 300px;
+     justify-content: center;
+    }
+    .search-container img {
+    max-width: 300px;
+    height: auto;
+  }
+
+  }  
+
+
+  @media (max-width: 768px) {
+    .search-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px; 
+    }
+  
+    .search-container img {
+      max-width: 100%;
+      height: auto; 
+    }
+  
+    .item-details {
+      text-align: center;
+    }
+  
+    .add-to-cart-button {
+      margin-top: 10px; /* Adjust margin as needed */
+    }
+  }
+
+  
+  
+  .hide-background {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .hide-navbar {
+    display: flex;
+  }
+  .menu-container{
+    margin-top: 50px;
+    margin-right: 960px;
+  }
+.fode{
+  margin-top: 50px;
+  margin-right: 1080px;
+}
+
+
+  .menu-link {
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  
+  .menu-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#28A428;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+   /* .menu-link:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }  */
+  
+
+  .starters-heading{
+   margin-top: 10px;
+   margin-right: 1035px;
+  }
+
+
+  .tacos-heading{
+    margin-right: 1080px;
+  }
+
+.rice-bowl-heading{
+  margin-right: 1000px;
+}
+  
+.enchiladas-heading{
+  margin-right: 990px;
+}
+
+
+.kids-menu-heading{
+  margin-right: 1000px;
+}
+
+.tamales-heading{
+  margin-right: 1030px;
+}
+
+.cocktails-heading{
+  margin-left: 30px;
+}
+
+
+.mencon {
+  margin-top: -10px;
+  margin-left: 1000px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menuuu-liee {
+ 
+  margin-right: 10px;  
+  padding: 5px 10px; 
+  border-radius: 10%;  
+  text-decoration: none;  
+}
+
+.menuuu-liee:hover {
+  background-color:  #28A428; 
+} 
+
+
+
+

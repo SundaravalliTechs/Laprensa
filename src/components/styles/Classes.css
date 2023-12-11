@@ -1,0 +1,330 @@
+.para {
+  display: flex;
+  width:95%;
+  margin: 0 auto;
+}
+.para img{
+    width: 750px;
+      height: auto;
+      margin-Top: 200px;
+     margin-Left:120px;
+}
+/* .lie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+
+} */
+
+.cocop {
+  margin-top: 200px;
+  line-height: 1.5em;
+  font-size: 20px;
+  color: gray;
+  margin-left: 50px;
+  margin-bottom: 20px; 
+}
+
+.cocop p {
+  color: #28A428;
+  font-family: "Oswald", Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+
+.text {
+  flex: 1;
+  text-align: left;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.text p {
+  margin: 0px;
+}
+.che{
+  margin-top: 35px;
+}
+
+.incl{
+  margin-top: 35px;
+}
+
+.mak{
+  margin-top: 35px;
+}
+.clsv{
+  width: 100%;
+  height: 100%;
+  margin-top:50px;
+}
+
+.belcomn {
+  
+}
+
+.cute {
+  margin-top: 200px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  height: 900px;
+
+}
+
+.cute h1{
+  margin-top: 40px;
+  font-size: 50px;
+
+}
+
+.cute p{
+margin-bottom: 10px;
+font-size: 30px;
+}
+
+.shower {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.shower .fam,
+.shower .par,
+.shower .drin {
+  width: 33%;
+  text-align: center;
+}
+
+.shower img {
+  max-width: 100%;
+}
+
+
+.clloc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.custom-button {
+  margin-top: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #28A428;
+  border-radius: 50px;
+  color: white;
+  background-color: #28A428;
+  height: 40px;
+}
+
+.custom-button p {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.custom-button:hover {
+  background-color: #28A428;
+  color: white;
+}
+
+
+.inquiry{
+  margin-top: 50px;
+  color: #28A428;
+  text-align: center;
+  font-family: "Oswald", Sans-serif;
+  font-weight: bold;
+  font-size: 100px; 
+}
+.inquiry h1{
+  font-weight: 700;
+}
+
+.inquiry .full-width {
+  margin-top: 60px;
+}
+
+.inquiry .input-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 1500px;  
+}
+
+
+.inquiry .input-column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 1500px;  
+}
+
+.inquiry label {
+  color: #777; 
+  font-size: 14px;
+  margin-right: 10px;
+  flex: 0 0 60px;
+}
+
+.inquiry input[type="text"],
+.inquiry input[type="tel"],
+.inquiry input[type="email"],
+.inquiry textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc; 
+  color: #333;
+  flex: 1;
+}
+
+.inquiry input[type="submit"] {
+  background-color: #28A428;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.inquiry input[type="submit"]:hover {
+  background-color: #28A428;
+} 
+
+
+@media (max-width: 768px) {
+  .lie{
+    margin-top: 100px;
+    
+  }
+  .cocop {
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .cute h1 {
+    font-size: 36px;
+  }
+
+  .cute p {
+    font-size: 24px;
+  }
+
+  .shower {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .shower .fam,
+  .shower .par,
+  .shower .drin {
+    width: 100%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .cocop {
+    font-size: 16px;
+  }
+
+  .cute h1 {
+    font-size: 30px;
+  }
+
+  .cute p {
+    font-size: 20px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .para {
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  .para img{
+    width: 80%;
+    margin: 10px auto;
+    margin-top: 40px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  .inquiry {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .input-row, .input-column {
+    flex-direction: column;
+  }
+
+  .input-row label, .input-row input, .input-column label, .input-column input {
+    flex: none;
+    width: 23%;
+  }
+
+  /* Adjust the width of the message textarea specifically */
+  .input-column textarea {
+    width: 23%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .cocop {
+    max-width: 100%;
+    padding: 50px;
+    justify-content: center;
+  
+  }
+.cocop p{
+  line-height: 1.3em;
+}
+  .che, .incl, .mak {
+    margin-bottom: 10px;
+    
+  }
+}
+
+
+

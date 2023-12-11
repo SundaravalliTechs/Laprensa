@@ -1,0 +1,159 @@
+
+
+
+.cart-icon-container {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;
+  cursor: pointer;
+}
+
+.cart-icon-count {
+  position: absolute;
+  top: 0;
+  margin-top: -20px;
+  right: 30px;
+  transform: translateX(-50%);
+  background-color: red;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+
+ .quantity-control button {
+  padding: 2px 5px;
+  font-size: 0.8em;
+  margin: 0 5px; 
+}
+
+  .popup-content {
+  max-width: 400px;
+  margin: 300px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}   
+
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.close-button {
+  cursor: pointer;
+}
+
+
+h3 {
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.quantity-control {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+button {
+  padding: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  
+}
+
+
+.add-to-cart-button {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #28A428;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color:#28A428;
+}  
+
+
+.quantity-control button {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%; 
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.quantity-control button.increment {
+  margin-left: 10px;
+}
+
+.quantity-control button.decrement {
+  margin-right: 10px;
+}  
+
+.cart-icon-container {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;
+  cursor: pointer;
+}
+
+
+.cart-popup {
+  position: fixed;
+  bottom: 200px;
+  top: 100px;
+  right: 60px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 1000;
+  height: 550px;
+} 
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .cart-popup {
+    bottom: 10px;
+    right: 10px; 
+    height: 480px;
+    left: 10px;
+    top: 185px;
+  }
+}
+
+@media (max-width: 600px) {
+  .popup-content {
+    padding: 15px;
+    max-width: 400px;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .add-to-cart-button {
+    font-size: 1em;
+  }
+} 
+

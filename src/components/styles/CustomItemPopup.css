@@ -1,0 +1,14 @@
+
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .container {
+      max-width: 100%;
+      padding: 5px;
+    }
+  }
+  
